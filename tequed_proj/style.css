@@ -72,7 +72,10 @@
     color: #fff;
   }
   
-  
+  .roundBorder{
+      border-radius: 20px;
+  }
+
   /* Footer */
 footer a.text-light:hover { color: #fed136!important; text-decoration: none; }
 footer .cizgi { border-right: 1px solid #535e67; }
