@@ -1,0 +1,17 @@
+.roundBorder{
+    border-radius: 20px;
+}
+
+.myborder{
+    border-width: 1px;
+}
+
+.mypadding{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.roundBorderbg{
+    border-radius: 20px;
+    background-color: white;
+}
