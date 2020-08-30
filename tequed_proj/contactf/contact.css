@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(../imagesf/bg.jfif);
+  background-image: url(../imagesf/sample8.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
   max-width: 600px;
   background-color:transparent;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 30px 40px;
