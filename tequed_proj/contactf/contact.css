@@ -1,9 +1,13 @@
-body{
-  margin: 0;
-  padding: 0;
-  background: url(bg.jfif);
+
+body {
+  background-image: url(../imagesf/bg.jfif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-color: black;
 }
+
 .contact-form{
   width: 30%;
   min-width: 250px;
@@ -58,7 +62,6 @@ body{
 }
 .btn{
   display: inline-block;
-  background:rgb(38, 38, 165);
   padding: 14px 0;
   color: white;
   text-transform: uppercase;
@@ -71,6 +74,8 @@ body{
   border-radius: 20px;
   
 }
+
 .txt{
   height: 100px;
 }
+

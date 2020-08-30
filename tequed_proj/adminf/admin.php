@@ -1,5 +1,5 @@
 <?php  
-include "dbConn.php"; 
+include "../dbconn.php"; 
 if(isset($_POST["insert"]))  
 {  
      $file = addslashes(file_get_contents($_FILES["image"]["tmp_name"]));  
@@ -25,7 +25,7 @@ if(isset($_POST["insert"]))
 
           <link rel="stylesheet" type="text/css" href="admin.css"> 
      </head>  
-     <body class="bg-dark">  
+     <body >  
           <br /><br />  
           <div class="container" >  <div class="mypadding">
                <div class="border p-4 roundBorder bg-white">
@@ -51,18 +51,18 @@ if(isset($_POST["insert"]))
                               echo '  
                                    
                                    <div class="col-md-4 text-center mb-3 ">
-                                        <div class="border p-3 roundBorderbg ">
+                                        <div class="border p-3 roundBorderbg divheight">
                                              <img src="data:image/jpeg;base64,'.base64_encode($row['image_up'] ).'" class="bd-placeholder-img rounded-circle" width="140" height="140" />
                                              <h2>'.$row['title'].'</h2>
                                              <p class="text-left"> '.$row["course_content"].'</p>
-                                             <div class="d-flex">
-                                                  <div class="mr-auto p-2">
-                                                       <a href="./delete.php?id='. $row['id'] .'" class="btn btn-danger">Delete</a> 
-                                                  </div>
-                                                  <div class="p-2">
-                                                       <input type="submit" name="delete" id="delete" value="RS - '.$row["price"].'" class="btn btn-info" /> 
-                                                  </div>
-                                             </div>
+                                             <table>
+                                                  <tr>
+                                                       <td>
+                                                            <a href="./delete.php?id='. $row['id'] .'" class="btn btn-danger">Delete</a> 
+                                                            <input type="submit" name="delete" id="delete" value="RS - '.$row["price"].'" class="btn btn-info moveright" /> 
+                                                       </td>
+                                                  </tr>
+                                             </table>
                                         </div>
                                    </div>
                                         

@@ -34,23 +34,26 @@
             </button>
             <div class="collapse navbar-collapse" id="nvbCollapse">
                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item pl-1">
-                     <a class="nav-link" href="#"><i class="fa fa-home fa-fw mr-1"></i>Anasayfa</a>
-                  </li>
                   <li class="nav-item active pl-1">
-                     <a class="nav-link" href="#"><i class="fa fa-th-list fa-fw mr-1"></i>Blog</a>
+                     <a class="nav-link" href="#"><i class="fa fa-home fa-fw mr-1"></i>Home</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="#"><i class="fa fa-info-circle fa-fw mr-1"></i>Hakkımızda</a>
+                     <a class="nav-link" href="./reviewf/review.html"><i class="fa fa-th-list fa-fw mr-1"></i>Review</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="#"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>İletişim</a>
+                     <a class="nav-link" href="./aboutf/about.html"><i class="fa fa-info-circle fa-fw mr-1"></i>About Us</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="login.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Kayıt Ol</a>
+                     <a class="nav-link" href="./contactf/contact.html"><i class="fa fa-info-circle fa-fw mr-1"></i>Contact Us</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="adminf/admin.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Oturum Aç</a>
+                     <a class="nav-link" href="./signupf/signup.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Sign Up</a>
+                  </li>
+                  <li class="nav-item pl-1">
+                     <a class="nav-link" href="./loginf/login.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Login</a>
+                  </li>
+                  <li class="nav-item pl-1">
+                     <a class="nav-link" href="adminf/admin.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Admin?</a>
                   </li>
                </ul>
             </div>
@@ -121,25 +124,25 @@
       <div class="container">
          <div class="row">
             <?php  
-            include "adminf/dbConn.php"; 
+            include "dbconn.php"; 
             $query = "SELECT * FROM tbl_images ORDER BY id DESC  ";  
             $result = mysqli_query($connect, $query);  
             while($row = mysqli_fetch_array($result))  
             {  
                echo '  
                   <div class="col-md-4 text-center mb-3">
-                        <div class="border p-3 roundBorder">
+                        <div class="border p-3 roundBorder divheight">
                            <img src="data:image/jpeg;base64,'.base64_encode($row['image_up'] ).'" class="bd-placeholder-img rounded-circle" width="140" height="140" />
                            <h2>'.$row['title'].'</h2>
                            <p class="text-left"> '.$row["course_content"].'</p>
-                           <div class="d-flex">
-                              <div class="mr-auto p-2">
-                                 <a class="btn btn-primary" href="#" role="button">Enroll »</a>
-                              </div>
-                              <div class="p-2">
-                                 <input type="submit" name="delete" id="delete" value="RS - '.$row["price"].'" class="btn btn-info" /> 
-                              </div>
-                           </div>
+                           <table>
+                              <tr>
+                                 <td>
+                                    <a class="btn btn-primary" href="#" role="button">Enroll »</a>
+                                    <input type="submit" name="delete" id="delete" value="RS - '.$row["price"].'" class="btn btn-info moveright" /> 
+                                 </td>
+                              </tr>
+                           </table>
                         </div>
                   </div>
                ';  

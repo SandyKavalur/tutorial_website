@@ -1,3 +1,12 @@
+body {
+    background-image: url(../imagesf/imagep.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+
 .roundBorder{
     border-radius: 20px;
 }
@@ -14,4 +23,13 @@
 .roundBorderbg{
     border-radius: 20px;
     background-color: white;
+}
+
+.divheight{
+    min-height: 450px;
+}
+
+.moveright{
+    position: absolute;
+    right: 30px;
 }
