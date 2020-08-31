@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+         <?php session_start(); ?>
          <!-- CSS only -->
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -54,6 +55,9 @@
                   </li>
                   <li class="nav-item pl-1">
                      <a class="nav-link" href="adminf/admin.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Admin?</a>
+                  </li>
+                  <li class="nav-item pl-1">
+                     <a class="nav-link" href="logoutf/logout.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Log Out</a>
                   </li>
                </ul>
             </div>
@@ -109,6 +113,12 @@
       </div>
    
       <!-- Welcome window -->
+      <?php 
+         if(isset($_SESSION)) {
+            print_r($_SESSION['username']);
+            print_r($_SESSION['sort']);
+         }
+      ?>
       <div class="container mt-3">
          <div class="jumbotron">
             <h1 class="display-4">Welcome to Raman Stationary!</h1>

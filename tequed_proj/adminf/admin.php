@@ -32,10 +32,10 @@ if(isset($_POST["insert"]))
                     <h3 align="center">Insert and Display </h3>  
                     <br />  
                     <form method="post" enctype="multipart/form-data">  
-                         <input class="mb-2" type="file" name="image" id="image" />  <br />
-                         <input class="col-md-12 mb-3 rounded myborder" placeholder="Title" type="text" id="title" name="title" />  <br />  
-                         <textarea rows="5" class="col-md-12 rounded" placeholder="Enter the course content..." type="text" name="txt" id="txt" ></textarea>  <br />
-                         <input class="col-md-12 mb-3 rounded myborder" placeholder="Enter Price" type="number" id="price" name="price" />  <br />  
+                         <input class="mb-2 " type="file" name="image" id="image" />  <br />
+                         <input class="col-md-12 mb-3 rounded myborder mybg" placeholder="Title" type="text" id="title" name="title" />  <br />  
+                         <textarea rows="5" class="col-md-12 rounded mybg" placeholder="Enter the course content..." type="text" name="txt" id="txt" ></textarea>  <br />
+                         <input class="col-md-12 mb-3 rounded myborder mybg" placeholder="Enter Price" type="number" id="price" name="price" />  <br />  
                          <input type="submit" name="insert" id="insert" value="Insert" class="btn btn-info" />  
                     </form> 
                </div> </div>
