@@ -53,9 +53,7 @@
                   <li class="nav-item pl-1">
                      <a class="nav-link" href="./loginf/login.html"><i class="fa fa-user-plus fa-fw mr-1"></i>Login</a>
                   </li>
-                  <li class="nav-item pl-1">
-                     <a class="nav-link" href="adminf/admin.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Admin?</a>
-                  </li>
+                  
                   <li class="nav-item pl-1">
                      <a class="nav-link" href="logoutf/logout.php"><i class="fa fa-sign-in fa-fw mr-1"></i>Log Out</a>
                   </li>
@@ -75,22 +73,22 @@
             <div class="carousel-item active">
                <img class="d-block w-100" src="https://i.postimg.cc/bNQp0RDW/1.jpg" alt="First slide">
                <div class="carousel-caption d-none d-md-block">
-                  <h5>Slider One Item</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                  <h5>Learn Academy</h5>
+                  <p>We are learn academy, we aim to make coding easy for everyone.</p>
                </div>
             </div>
             <div class="carousel-item">
                <img class="d-block w-100" src="https://i.postimg.cc/pVzg3LWn/2.jpg" alt="Second slide">
                <div class="carousel-caption d-none d-md-block">
-                  <h5>Slider One Item</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                  <h5>100+ Courses</h5>
+                  <p>We offer the best courses accesible to everyone taught by top proffessionals and educators of the coding field.</p>
                </div>
             </div>
             <div class="carousel-item">
                <img class="d-block w-100" src="https://i.postimg.cc/0y2F6Gpp/3.jpg" alt="Third slide">
                <div class="carousel-caption d-none d-md-block">
-                  <h5>Slider One Item</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                  <h5>Easy on your wallet</h5>
+                  <p>We offer our courses at the lowest prices possible compared to anywhere else.</p>
                </div>
             </div>
          </div>
@@ -113,12 +111,7 @@
       </div>
    
       <!-- Welcome window -->
-      <?php 
-         if(isset($_SESSION)) {
-            print_r($_SESSION['username']);
-            print_r($_SESSION['sort']);
-         }
-      ?>
+      
       <div class="container mt-3">
          <div class="jumbotron">
             <h1 class="display-4">Welcome to Raman Stationary!</h1>

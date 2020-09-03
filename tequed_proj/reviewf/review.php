@@ -104,9 +104,12 @@
                             echo'
                                 <div class="review px-5 py-3 border-bottom">
                                     <div class="row d-flex pt-3">
-                                        <div class="d-flex flex-column pl-2">
-                                            <h4><i>User Name:'.$row["username"].'</i></h4>
+                                        <div class="d-flex flex-column ">
+                                            <h4><i>User Name: '.$row["username"].'</i></h4>
                                         </div>
+                                    </div>
+                                    <div class="row pb-3">
+                                        <p>'.$row["review"].'</p>
                                     </div>
                                     <div class="row pb-3">
                                         <div class="fa fa-circle '.$dot.' my-auto rating-dot"></div>
@@ -114,9 +117,7 @@
                                             <h5 class="mb-0 pl-3">'.$rtext.'</h5>
                                         </div>
                                     </div>
-                                    <div class="row pb-3">
-                                        <p>'.$row["review"].'</p>
-                                    </div>';
+                                    ';
                                     $adminpass = md5("admin");
                                     if($_SESSION['password'] == $adminpass){
                                         echo'
