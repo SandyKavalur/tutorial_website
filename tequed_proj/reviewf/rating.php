@@ -1,8 +1,4 @@
 <?php
-    if (session_status() == PHP_SESSION_NONE) {
-        header("Location: ../loginf/login.html");
-        exit();
-    }
     include "../dbconn.php";
 
     
@@ -12,6 +8,10 @@
         $ratedIndex++;
 
         $connect->query("INSERT INTO stars (ratedIndex, review, username) VALUES ('$ratedIndex', '$review', '$_SESSION[username]')");
+    }else{
+        if (session_status() == PHP_SESSION_NONE) {
+            header("Location: ../loginf/login.html");
+        }
     }
 
     $sql = $connect->query("SELECT id FROM stars");
