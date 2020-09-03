@@ -6,7 +6,7 @@
         $ratedIndex = $_POST['ratedIndex'];
         $review = $_POST['review'];
         $ratedIndex++;
-
+        session_start();
         $connect->query("INSERT INTO stars (ratedIndex, review, username) VALUES ('$ratedIndex', '$review', '$_SESSION[username]')");
     }else{
         if (session_status() == PHP_SESSION_NONE) {
