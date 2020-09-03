@@ -105,7 +105,7 @@
                                 <div class="review px-5 py-3 border-bottom">
                                     <div class="row d-flex pt-3">
                                         <div class="d-flex flex-column pl-2">
-                                            <h4><i>'.$row["username"].'</i></h4>
+                                            <h4><i>User Name:'.$row["username"].'</i></h4>
                                         </div>
                                     </div>
                                     <div class="row pb-3">
@@ -144,17 +144,15 @@
                 ratedIndex = parseInt($(this).data('index'));
             });
 
-            var msg = $("#msg").val();
-            var complete = true;
-            if(msg == "") {
-                complete = false;
-            }  
-            if(!complete) {
-                alert("You need to fill in all the fields");
-            }
+            
 
             $('.postreview').on('click', function () {
-                saveToTheDB();
+                var msg = $("#msg").val();
+                if(msg == "") {
+                    alert("You need to fill in all the fields");
+                }else{
+                    saveToTheDB();
+                }
             });
 
             $('.fa-star').mouseover(function () {
@@ -179,7 +177,7 @@
                 data: {
                     save: 1,
                     ratedIndex: ratedIndex,
-                    review: msg
+                    review: $("#msg").val()
                 }
             });
         }
