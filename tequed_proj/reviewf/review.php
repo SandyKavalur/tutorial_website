@@ -144,6 +144,15 @@
                 ratedIndex = parseInt($(this).data('index'));
             });
 
+            var msg = $("#msg").val();
+            var complete = true;
+            if(msg == "") {
+                complete = false;
+            }  
+            if(!complete) {
+                alert("You need to fill in all the fields");
+            }
+
             $('.postreview').on('click', function () {
                 saveToTheDB();
             });
@@ -170,7 +179,7 @@
                 data: {
                     save: 1,
                     ratedIndex: ratedIndex,
-                    review: $("#msg").val()
+                    review: msg
                 }
             });
         }
