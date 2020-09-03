@@ -20,6 +20,20 @@ body {
     padding: 5px 3px 5px 3px
 }
 
+.yellow-tab {
+    background-color: #FFD54F;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 3px 5px 3px
+}
+
+.red-tab {
+    background-color: #E64A19;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 3px 5px 3px
+}
+
 .btn-red {
     background-color: #E64A19;
     color: #fff;
@@ -37,11 +51,6 @@ body {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     outline-width: 0
-}
-
-.fa-circle {
-    font-size: 10px;
-    color: #EEEEEF
 }
 
 .green-dot {
@@ -64,15 +73,19 @@ body {
     color: #4CAF50
 }
 
-.profile-pic img {
-    border-radius: 50%
+.yellow-text {
+    color: #FFD54F
+}
+
+.red-text {
+    color: #E64A19
 }
 
 .rating-dot {
     letter-spacing: 5px
 }
 
-.via {
-    border-radius: 20px;
-    height: 28px
-}
+/* Footer */
+footer a.text-light:hover { color: #fed136!important; text-decoration: none; }
+footer .cizgi { border-right: 1px solid #535e67; }
+@media (max-width: 992px) { footer .cizgi { border-right: none; } }

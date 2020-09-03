@@ -24,6 +24,14 @@ if(isset($_POST["insert"]))
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script><link rel="stylesheet" href="style.css">
 
           <link rel="stylesheet" type="text/css" href="admin.css"> 
+
+          <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+          <script> 
+               $(function(){
+               $("#footer").load("../footer.html"); 
+               });
+          </script>
      </head>  
      <body >  
           <br /><br />  
@@ -37,6 +45,7 @@ if(isset($_POST["insert"]))
                          <textarea rows="5" class="col-md-12 rounded mybg" placeholder="Enter the course content..." type="text" name="txt" id="txt" ></textarea>  <br />
                          <input class="col-md-12 mb-3 rounded myborder mybg" placeholder="Enter Price" type="number" id="price" name="price" />  <br />  
                          <input type="submit" name="insert" id="insert" value="Insert" class="btn btn-info" />  
+                         <a href="../reviewf/review.php" name="viewrate" id="viewrate" value="viewrate" style=' padding-left:60%'>Visit Review Page!</a>
                     </form> 
                </div> </div>
                <br />  
@@ -71,7 +80,9 @@ if(isset($_POST["insert"]))
                          ?>   
                     </div>
                </div>
-          </div>  
+          </div>
+          <!-- footer -->
+          <div id="footer"></div>  
      </body>  
 </html>  
 <script>  

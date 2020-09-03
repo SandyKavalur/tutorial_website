@@ -39,7 +39,7 @@
                      <a class="nav-link" href="#"><i class="fa fa-home fa-fw mr-1"></i>Home</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="./reviewf/review.html"><i class="fa fa-th-list fa-fw mr-1"></i>Review</a>
+                     <a class="nav-link" href="./reviewf/review.php"><i class="fa fa-th-list fa-fw mr-1"></i>Review</a>
                   </li>
                   <li class="nav-item pl-1">
                      <a class="nav-link" href="./aboutf/about.html"><i class="fa fa-info-circle fa-fw mr-1"></i>About Us</a>

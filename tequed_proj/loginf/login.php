@@ -19,12 +19,13 @@
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['sort'] = $row['sort'];
         $_SESSION['email'] = $row['email'];
-
+        $_SESSION['password'] = $row['password'];
         header("location:../adminf/admin.php");
     } else {
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['sort'] = $row['sort'];
         $_SESSION['email'] = $row['email'];
+        $_SESSION['password'] = $row['password'];
         header("location:../index.php");
     }
 ?>
