@@ -20,12 +20,14 @@
         $_SESSION['sort'] = $row['sort'];
         $_SESSION['email'] = $row['email'];
         $_SESSION['password'] = $row['password'];
+        $_SESSION['temp'] = TRUE;
         header("location:../adminf/admin.php");
     } else {
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['sort'] = $row['sort'];
         $_SESSION['email'] = $row['email'];
         $_SESSION['password'] = $row['password'];
+        $_SESSION['temp'] = TRUE;
         header("location:../index.php");
     }
 ?>
