@@ -46,9 +46,11 @@
          </button>
          <div class="collapse navbar-collapse" id="nvbCollapse">
             <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active pl-1">
-                     <a class="nav-link" href="#"><i class="fa fa-user fa-fw mr-1"></i><?php echo $_SESSION['username'];?></a>
-                  </li>
+               <?php
+                  if($_SESSION['temp']){echo'
+                     <li class="nav-item active pl-1">
+                        <a class="nav-link" href="#"><i class="fa fa-user fa-fw mr-1"></i>'.$_SESSION['username'].'</a>
+                     </li>';}?>
                   <li class="nav-item pl-1">
                      <a class="nav-link" href="./reviewf/review.php"><i class="fa fa-th-list fa-fw mr-1"></i>Review</a>
                   </li>
