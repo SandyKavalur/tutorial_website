@@ -193,6 +193,7 @@
                     alert("You need to fill in all the fields");
                 }else{
                     saveToTheDB();
+                    window.location.reload();
                 }
             });
 
