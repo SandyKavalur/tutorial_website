@@ -58,7 +58,7 @@
                      <a class="nav-link" href="./aboutf/about.php"><i class="fa fa-info-circle fa-fw mr-1"></i>About Us</a>
                   </li>
                   <li class="nav-item pl-1">
-                     <a class="nav-link" href="./contactf/contact.html"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Contact Us</a>
+                     <a class="nav-link" href="./contactf/contact.php"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Contact Us</a>
                   </li>
                   
                   <?php
@@ -144,7 +144,7 @@
          </div>
       </div>
 
-      <div class="container mb-5 mt-5 overflow-auto" style='padding-top: 120px; padding-bottom: 120px;'>
+      <div class="container bg-white roundBorder mb-5 mt-5 overflow-auto" style='padding-top: 120px; padding-bottom: 120px;'>
          <div class="row">
             <div class="col-md-6 pl-5 overflow-hidden">
                <img src="./imagesf/man2.jpg" alt="Mike" style="padding-top:25%">
@@ -173,7 +173,7 @@
             {  
                echo '  
                   <div class="col-md-4 text-center mb-3">
-                        <div class="border p-3 roundBorder divheight">
+                        <div class="border p-3 roundBorder bg-white divheight">
                            <img src="data:image/jpeg;base64,'.base64_encode($row['image_up'] ).'" class="bd-placeholder-img rounded-circle" width="140" height="140" />
                            <h2>'.$row['title'].'</h2>
                            <p class="text-left"> '.$row["course_content"].'</p>
@@ -207,8 +207,8 @@
                <img src="./imagesf/man2.jpg" alt="Mike" style="">
             </div>
             <div class="col-md-6 text-justify p-5">
-               <h1 class="text-primary text-left mb-4">Get a certificate</h1>
-               <p >The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+               <h1 class=" text-left mb-4">Get a certificate</h1>
+               <p class="text-white">The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
                <br />
                <div class="pt-2 pb-3"> <a class="py-2 btn btn-danger px-4" href="./signupf/signup.html">Join Now For Free</a> </div>
             </div>
