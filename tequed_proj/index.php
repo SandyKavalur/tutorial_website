@@ -207,9 +207,10 @@
             </div>
             <div class="col-md-6 text-justify p-5">
                <h1 class=" text-left mb-4">Get a certificate</h1>
-               <p class="text-white">The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+               <p class="text-white">Choose from a wide variety of online courses with certificates of completion. Get your programming certifications, as well as 
+                  game and web development, data science, machine learning, and other digital skills certificates right here at Learn Academy.</p>
                <br />
-               <div class="pt-2 pb-3"> <a class="py-2 btn btn-dark px-4" href="./signupf/signup.html">Join Now For Free</a> </div>
+               <div class="pt-2 pb-3"> <a class="py-2 btn btn-dark px-4" href="./signupf/signup.html">Join Now</a> </div>
             </div>
          </div>
       </div>

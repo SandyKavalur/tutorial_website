@@ -45,9 +45,11 @@
             </button>
             <div class="collapse navbar-collapse" id="nvbCollapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-user fa-fw mr-1"></i><?php echo $_SESSION['username'];?></a>
-                        </li>
+                        <?php
+                            if($_SESSION['temp']){echo'
+                                <li class="nav-item active pl-1">
+                                    <a class="nav-link" href="#"><i class="fa fa-user fa-fw mr-1"></i>'.$_SESSION['username'].'</a>
+                                </li>';}?>
                         <?php
                             if(!$_SESSION['temp']){echo'
                             <li class="nav-item pl-1">
@@ -81,13 +83,13 @@
             </p>
             <p class="text-justify">
                 ‘Learn Academy’ plans for educational 
-                committees, focused examinations and has co-curricular courses too. <br> Our mission to improve lives through learning.
+                committees, focused examinations and has co-curricular courses too. Our mission to improve lives through learning.
             </p>
         </div>
     </div>
       
     <div class="container">
-      <h2 style="text-align:center">Our Team</h2>
+      <h2 class="mt-5" style="text-align:center">Our Team</h2>
       <div class="row">
         <div class="column">
           <div class="card mycard">

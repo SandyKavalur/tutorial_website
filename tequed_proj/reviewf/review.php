@@ -145,7 +145,7 @@
                                 <div class="review px-5 py-3 border-bottom">
                                     <div class="row d-flex pt-3">
                                         <div class="d-flex flex-column ">
-                                            <h4><i>User Name: '.$row["username"].'</i></h4>
+                                            <h4>'.$_SESSION['sort'].'<i>: '.$row["username"].'</i></h4>
                                         </div>
                                     </div>
                                     <div class="row pb-3">
