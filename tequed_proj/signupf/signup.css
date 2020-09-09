@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../imagesf/image.jpg);
+    background: url(../imagesf/signup.jpg);
+    
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -9,7 +10,7 @@ body{
 .login-box{
     width: 320px;
     height: 520px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     color: #fff;
     top: 50%;
     left: 50%;

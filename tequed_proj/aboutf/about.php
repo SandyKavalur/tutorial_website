@@ -68,20 +68,20 @@
     </nav>
     <div class="about-section ">
         <div class="container">
-            <h1>About Us Page</h1>
+            <h1>About Us </h1>
             <p>
                 ‘Learn Academy’
             </p>
             <p class="text-justify">
-              Successful people always believe in one thing, learning will help you keep on earning. Learning new skills is no longer a tough job. For beginners, there are several youtube channels and blogs to help you start with. But if you need to become a professional and also love to learn professional tricks, you need something more than watching a youtube channel. Online education websites help you learn many new skills and even if you are a teacher you can share your knowledge via these educational websites. In this list, we have collected some of the best free Bootstrap education templates where you can share your courses with people all around the world.
+              Successful people always believe in one thing, learning will help you keep on earning. Learning new skills is no longer a tough job. For beginners, there are several youtube channels and blogs to help you start with. But if you need to become a professional and also love to learn professional tricks, you need something more than watching a youtube channel. Online education websites help you learn many new skills and even if you are a teacher you can share your knowledge via these educational websites. In this list, we provide some of the best courses where you can share these courses with people all around the world.
             
                 Learn Academy‘s web based mentoring stage empowers LIVE intelligent learning between an educator and an understudy. It offers individual and 
                 gathering classes. On ‘Learn Academy’ an instructor can give customized showing utilizing two-way sound, video and whiteboarding apparatuses where 
                 both educator and understudy can see, hear, compose and associate continuously.
             </p>
             <p class="text-justify">
-                Envision it like ‘Skype’ specially designed for training. ‘Learn Academy’ takes into account sixth grade to twelfth grade and plans for educational 
-                committees, focused examinations and has co-curricular courses too.
+                ‘Learn Academy’ plans for educational 
+                committees, focused examinations and has co-curricular courses too. <br> Our mission to improve lives through learning.
             </p>
         </div>
     </div>
@@ -91,9 +91,9 @@
       <div class="row">
         <div class="column">
           <div class="card mycard">
-            <img src="../imagesf/girl.jpg" alt="Jane" style="width:100%; height: 200px;">
+            <img src="../imagesf/man2.jpg" alt="Jane" style="width:100%; height: 200px;">
             <div class="container">
-              <h2>Saloni Dhar</h2>
+              <h2>Sandeep Kavalur</h2>
               <p class="title">CEO & Founder</p>
               <p>Handles relations with investors and educators and aim to provide accesible tutorials for everyone.</p>
               <p>abc125@gmail.com</p>
@@ -104,9 +104,9 @@
       
         <div class="column">
           <div class="card mycard">
-            <img src="../imagesf/man2.jpg" alt="Mike" style="width:100%; height: 200px;">
+            <img src="../imagesf/girl.jpg" alt="Mike" style="width:100%; height: 200px;">
             <div class="container">
-              <h2>Sandeep Kavalur</h2>
+              <h2>Saloni Dhar</h2>
               <p class="title">Director</p>
               <p>Directs and handles operations regarding courses and manages business partners to keep the company functioning.</p>
               <p>lmn123@gmail.com</p>

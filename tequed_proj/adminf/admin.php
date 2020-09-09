@@ -13,7 +13,7 @@ if(isset($_POST["insert"]))
 <!DOCTYPE html>  
 <html>  
      <head>  
-          <title>Webslesson Tutorial | Insert and Display Images From Mysql Database in PHP</title>  
+          <title>Learn Academy</title>  
 
            <!-- CSS only -->
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">

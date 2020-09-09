@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Hello, world!</title>
+        <title>Contact</title>
     </head>
     <body>
         <?php  
@@ -82,9 +82,9 @@
                         <div class=" pt-2 mt-2">
                             <div class="card bg-secondary mb-n1 border-0">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-white display-4" style="font-size:30px">İletişim</h5>
-                                <a class="text-light d-block lead" style="margin-left: -20px" href="#"><i class="fa fa-phone mr-2"></i>+90 (000) 000 0 000</a>
-                                <a class="text-light d-block lead" href="#"><i class="fa fa-envelope mr-2"></i>admin@localhost.com</a>
+                                <h5 class="card-title text-white display-4" style="font-size:30px">Learn Academy</h5>
+                                <a class="text-light d-block lead" style="margin-left: -20px" href="#"><i class="fa fa-phone mr-2"></i>+91 (080) 1334 435</a>
+                                <a class="text-light d-block lead" href="#"><i class="fa fa-envelope mr-2"></i>learnacademy@gmail.com</a>
                             </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <div class="">
                             <div class="card bg-secondary border-0">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-white display-4" style="font-size:30px">Sosyal Medya</h5>
+                                <h5 class="card-title text-white display-4" style="font-size:30px">Social Media</h5>
                         
                                 <a class="text-light" href="#"><i class="fa fa-facebook-square fa-fw fa-2x"></i></a>
                             

@@ -88,21 +88,21 @@
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img class="d-block w-100" src="https://i.postimg.cc/bNQp0RDW/1.jpg" alt="First slide">
+               <img class="d-block w-100" src="./imagesf/sliding1.jpg" alt="First slide">
                <div class="carousel-caption d-none d-md-block">
                   <h5>Learn Academy</h5>
                   <p>We are learn academy, we aim to make coding easy for everyone.</p>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100" src="https://i.postimg.cc/pVzg3LWn/2.jpg" alt="Second slide">
+               <img class="d-block w-100" src="./imagesf/sliding2.jpg" alt="Second slide">
                <div class="carousel-caption d-none d-md-block">
-                  <h5>100+ Courses</h5>
-                  <p>We offer the best courses accesible to everyone taught by top proffessionals and educators of the coding field.</p>
+                  <h5 class=>100+ Courses</h5>
+                  <p class=>We offer the best courses accesible to everyone taught by top proffessionals and educators of the coding field.</p>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100" src="https://i.postimg.cc/0y2F6Gpp/3.jpg" alt="Third slide">
+               <img class="d-block w-100" src="./imagesf/sliding3.jpg" alt="Third slide">
                <div class="carousel-caption d-none d-md-block">
                   <h5>Easy on your wallet</h5>
                   <p>We offer our courses at the lowest prices possible compared to anywhere else.</p>
@@ -121,13 +121,11 @@
 
       <!-- Welcome window -->
       
-      <div class="container mt-3" style='padding-top: 120px;'>
+      <div class="container mt-3 " style='padding-top: 120px;'>
          <div class="jumbotron">
-            <h1 class="display-4 text-center">Welcome to Raman Stationary!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-               featured content or information.</p>
+            <h1 class="display-4 text-center">Welcome to Learn Academy!</h1>
+            <p class="lead">We provide courses that teach all the essentials required for programming in this digital age from Programming to web development to finance to machine learning to app development and game development. We have something for everyone</p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
          </div>
       </div>
    
@@ -139,24 +137,25 @@
             <ul class="ml-n3 text-white">
                <li class="my-3">Techniques to engage effectively with vulnerable children and young people.</li>
                <li class="my-3">Join millions of people from around the world learning together.</li>
-               <li class="my-3">Join millions of people from around the world learning together. Online learning is as easy and natural.</li>
+               <li class="my-3"> Online learning is as easy and natural.</li>
             </ul>
          </div>
       </div>
 
-      <div class="container bg-white roundBorder mb-5 mt-5 overflow-auto" style='padding-top: 120px; padding-bottom: 120px;'>
+      <div class="container bg-dark text-white roundBorder mb-5 mt-5 overflow-auto" style='padding-top: 40px; padding-bottom: 120px;'>
          <div class="row">
             <div class="col-md-6 pl-5 overflow-hidden">
                <img src="./imagesf/man2.jpg" alt="Mike" style="padding-top:25%">
             </div>
             <div class="col-md-6 text-justify p-5">
-               <h1 class="text-primary text-center mb-4">Learner outcomes on courses you will take</h1>
-               <p >The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+               <h1 class="text-info text-center mb-4">Learner outcomes on courses you will take</h1>
+               <p >85% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career</p>
                <br />
                <ul class="ml-n3 ">
-                  <li class="my-3">Techniques to engage effectively with vulnerable children and young people.</li>
-                  <li class="my-3">Join millions of people from around the world learning together.</li>
-                  <li class="my-3">Join millions of people from around the world learning together. Online learning is as easy and natural.</li>
+                  <h2 class="text-info">Achieve your goals with 'Learn Academy'</h2>
+                  <li class="my-3">Learn the latest skills</li>
+                  <li class="my-3">Get ready for a career</li>
+                  <li class="my-3">Earn a certificate or degree</li>
                </ul>
             </div>
          </div>
@@ -180,7 +179,7 @@
                            <table>
                               <tr>
                                  <td>
-                                    <a class="btn btn-primary" href="#" onClick="alert(';
+                                    <a class="btn btn-info" href="#" onClick="alert(';
                                     if($_SESSION['temp'] == FALSE){
                                        echo'\'Please LogIn to Enroll!\'';
                                     }else{
@@ -198,7 +197,7 @@
             }  
             ?>   
          </div>
-         <div class="pt-2 d-flex justify-content-center"> <a class="py-2 btn btn-danger px-4" href="./adminf/admin.php">View All Courses</a> </div>
+         <div class="pt-2 d-flex justify-content-center"> <a class="py-2 btn btn-dark px-4" href="./adminf/admin.php">View All Courses</a> </div>
       </div>
 
       <div class="container mb-5 mt-5 overflow-auto" style='padding-top: 120px; padding-bottom: 120px;'>
@@ -210,7 +209,7 @@
                <h1 class=" text-left mb-4">Get a certificate</h1>
                <p class="text-white">The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
                <br />
-               <div class="pt-2 pb-3"> <a class="py-2 btn btn-danger px-4" href="./signupf/signup.html">Join Now For Free</a> </div>
+               <div class="pt-2 pb-3"> <a class="py-2 btn btn-dark px-4" href="./signupf/signup.html">Join Now For Free</a> </div>
             </div>
          </div>
       </div>
