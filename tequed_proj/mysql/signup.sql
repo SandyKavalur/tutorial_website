@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 03, 2020 at 03:20 PM
+-- Generation Time: Sep 17, 2020 at 06:44 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -41,7 +41,10 @@ CREATE TABLE `signup` (
 
 INSERT INTO `signup` (`uid`, `username`, `password`, `sort`, `email`) VALUES
 (1, 'demo', 'fe01ce2a7fbac8fafaed7c982a04e229', 'student', 'demo@demo.com'),
-(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'student', 'admin@admin.com');
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'student', 'admin@admin.com'),
+(5, 'demo1', 'e368b9938746fa090d6afd3628355133', 'parent', 'demo1@demo1.com'),
+(6, 'john bandik', '527bd5b5d689e2c32ae974c6229ff785', 'student', 'john@gmail.com'),
+(7, 'Alfie Allen', 'b4089ca0bf3bb48d265a4a5e1bc9fef5', 'student', 'alfie@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +64,7 @@ ALTER TABLE `signup`
 -- AUTO_INCREMENT for table `signup`
 --
 ALTER TABLE `signup`
-  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

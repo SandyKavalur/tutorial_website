@@ -20,7 +20,6 @@
       <script> 
          $(function(){
             $("#footer").load("footer.html"); 
-            $("#navbar").load("navbar.php");
          });
       </script> 
 
@@ -41,7 +40,7 @@
       <nav class="navbar navbar-expand-lg ">
          <div class="container">
          <a class="navbar-brand text-white" href="./index.php"><i class="fa fa-graduation-cap fa-lg mr-2"></i>Learn Academy</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
+         <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
             <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="nvbCollapse">
@@ -80,22 +79,22 @@
          </div>
       </nav>
       <!-- Sliding Window -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img class="d-block w-100" src="./imagesf/sliding1.jpg" alt="First slide">
+               <img class="d-block w-100" src="./imagesf/pc.jpg" alt="First slide">
                <div class="carousel-caption d-none d-md-block">
                   <h5>Learn Academy</h5>
                   <p>We are learn academy, we aim to make coding easy for everyone.</p>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100" src="./imagesf/sliding2.jpg" alt="Second slide">
+               <img class="d-block w-100" src="./imagesf/pc2.jpg" alt="Second slide">
                <div class="carousel-caption d-none d-md-block">
                   <h5 class=>100+ Courses</h5>
                   <p class=>We offer the best courses accesible to everyone taught by top proffessionals and educators of the coding field.</p>
@@ -109,11 +108,11 @@
                </div>
             </div>
          </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
          </a>
-         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
          </a>

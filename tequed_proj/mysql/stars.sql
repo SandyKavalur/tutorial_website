@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 03, 2020 at 03:20 PM
+-- Generation Time: Sep 17, 2020 at 06:45 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -39,8 +39,8 @@ CREATE TABLE `stars` (
 --
 
 INSERT INTO `stars` (`id`, `ratedIndex`, `review`, `username`) VALUES
-(28, 5, 'best', 'demo'),
-(29, 3, 'good', 'demo');
+(68, 5, 'Even though I found it difficult, Learn Academy broke the content down into easier parts which was helpful.', 'john bandik'),
+(70, 4, 'Learn Academy is really helpful and has a lot of useful practical information and to offer.', 'Alfie Allen');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +60,7 @@ ALTER TABLE `stars`
 -- AUTO_INCREMENT for table `stars`
 --
 ALTER TABLE `stars`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

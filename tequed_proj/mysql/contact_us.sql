@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 03, 2020 at 03:19 PM
+-- Generation Time: Sep 17, 2020 at 06:42 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -31,7 +31,6 @@ CREATE TABLE `contact_us` (
   `rid` int(10) NOT NULL,
   `name` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `phno` int(10) NOT NULL,
   `msg` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -39,10 +38,11 @@ CREATE TABLE `contact_us` (
 -- Dumping data for table `contact_us`
 --
 
-INSERT INTO `contact_us` (`rid`, `name`, `email`, `phno`, `msg`) VALUES
-(1, 'abc', 'abc@abc.com', 123, 'hi'),
-(2, 'abc', 'abc@abc.com', 123, 'hi'),
-(44, 'abc', 'abc@abc.com', 123, 'hi');
+INSERT INTO `contact_us` (`rid`, `name`, `email`, `msg`) VALUES
+(1, 'abc', 'abc@abc.com', 'hi'),
+(2, 'abc', 'abc@abc.com', 'hi'),
+(44, 'abc', 'abc@abc.com', 'hi'),
+(46, 'nddn', 'sdf@sdf.com', 'hdhndd');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +62,7 @@ ALTER TABLE `contact_us`
 -- AUTO_INCREMENT for table `contact_us`
 --
 ALTER TABLE `contact_us`
-  MODIFY `rid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `rid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

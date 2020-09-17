@@ -50,7 +50,7 @@ if(isset($_POST["insert"]))
           <nav class="navbar navbar-expand-lg ">
                <div class="container">
                     <a class="navbar-brand text-white" href="../index.php"><i class="fa fa-graduation-cap fa-lg mr-2"></i>Learn Academy</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
+                    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
                          <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="nvbCollapse">
