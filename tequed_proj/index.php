@@ -1,7 +1,16 @@
+<?php  
+   if (session_status() == PHP_SESSION_NONE) {
+      session_start();
+   }
+   if($_SESSION['temp'] == TRUE){
+      $_SESSION['temp'] = TRUE;
+   }else{
+      $_SESSION['temp'] = FALSE;
+   }
+?>
 <!doctype html>
 <html>
 	<head>
-      <?php session_start(); ?>
       <!-- CSS only -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -26,16 +35,7 @@
       <title> landing-page </title>
 	</head>
 	<body>
-      <?php  
-         if (session_status() == PHP_SESSION_NONE) {
-            session_start();
-         }
-         if($_SESSION['temp'] == TRUE){
-            $_SESSION['temp'] = TRUE;
-         }else{
-            $_SESSION['temp'] = FALSE;
-         }
-      ?>
+      
       <!--- Navbar --->
       <nav class="navbar navbar-expand-lg ">
          <div class="container">
